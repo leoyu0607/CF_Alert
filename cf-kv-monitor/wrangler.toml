@@ -1,0 +1,10 @@
+name = "cf-kv-monitor"
+main = "worker.js"
+compatibility_date = "2025-01-01"
+
+[triggers]
+crons = ["0 * * * *"]
+
+[[kv_namespaces]]
+binding = "KV"
+id = "9c9a27c7824147d3a492453f09149c71"
